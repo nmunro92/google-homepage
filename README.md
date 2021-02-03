@@ -1,0 +1,1 @@
+This is a project to test HTML & CSS skills by recreating the Google Homepage
