@@ -5,8 +5,9 @@ border: 0;
 margin: 8px;
 padding: 9px;
 font-family: arial,sans-serif;
+outline: none;
 }
-footer {
+.footer-left {
     font-family: arial, san-serif;
     color: #3c4043;
     font-size: 10pt;
@@ -17,10 +18,31 @@ footer {
     bottom: 0;
     width: 100%;
 }
-#navbar {
+.footer-right {
+    font-family: arial, san-serif;
+    color: #3c4043;
+    font-size: 10pt;
+    background-color: #f8f9fa;
+    padding: 15px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+#navbar-left {
     font-family: arial, san-serif;
     font-size: 10pt;
     position: fixed;
+    left: 0;
+    top: 0;
+    margin: 10px;
+}
+#navbar-right {
+    font-family: arial, san-serif;
+    font-size: 10pt;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
 
 }
 #search-text {
@@ -31,19 +53,42 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    outline: none;
 }
 #search-text:hover {
-    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 2px 0 rgba(141, 140, 140, 0.24), 0 2px 2px 0 rgba(121, 121, 121, 0.19);
 
 }
 img.logo{
    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%
 }
-.search-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: red;
+
+.button-container{
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+a {
+    color: #3c4043;
+    padding: 10px;
 }
+a:link {
+    text-decoration: none;
+    color: 3c4043;
+}
+a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }

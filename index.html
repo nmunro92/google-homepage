@@ -3,42 +3,44 @@
    <head>
     <link rel="stylesheet" href="style.css">
    </head>
-   <section id="navbar">
+   <section id="navbar-left">
     <nav>
         <a href="#">About</a>
         <a href="#">Store</a>
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
      </nav>
+     </section>
+     <section id="navbar-right">
+        <nav>
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+        </nav>
   </section>    
    <body>
        <div id="logo">
        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
         </div>
-       <form>
               <div class="search-text">
                   <input id="search-text" type="text">
                 </div>
-            
-            <div >
-                <button class="searh-button">
+            <div class="button-container">
+                <button id="searh-button">
                     Search Google
                  </button>
-            </div>
-            <div id="lucky-button">
-                <button>
+    
+                <button id="lucky-button">
                     I'm Feeling Lucky
                 </button>
-            </div>
             
-       </form>
-       <footer>
+            </div>
+       <div class="footer-left">
            <a href="#" id="Advertising">Advertising</a>
            <a href="#" id="Business">Business</a>
            <a href="#" id="how-search-works">How Search works</a>
+        </div>
+         <div class="footer-right">
            <a href="#" id="Privacy">Privacy</a>
            <a href="#" id="Terms">Terms</a>
            <a href="#" id="Settings">Settings</a>
-       </footer>
+         </div>
     </body>
     </html>
