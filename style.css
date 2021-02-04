@@ -12,10 +12,16 @@ footer {
     font-size: 10pt;
     background-color: #f8f9fa;
     padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 #navbar {
     font-family: arial, san-serif;
     font-size: 10pt;
+    position: fixed;
+    
 }
 #search-text {
     border: 1px solid rgb(206, 197, 197);
